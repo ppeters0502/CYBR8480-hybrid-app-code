@@ -5,6 +5,7 @@
     </description>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-device-motion" spec="^2.0.1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -19,5 +20,9 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <allow-navigation href="http://192.168.56.1:4200" name="ec-nav" />
+    <allow-navigation href="http://192.168.56.1:4200" name="ec-nav" />
+    <allow-navigation href="http://192.168.56.1:4200" name="ec-nav" />
+    <allow-navigation href="http://192.168.56.1:4200" name="ec-nav" />
     <engine name="android" spec="~7.1.4" />
 </widget>
