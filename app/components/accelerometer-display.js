@@ -35,7 +35,7 @@ export default Component.extend({
                 newYPoint = {time: t, label: 'y', value: acceleration.y},
                 newZPoint = {time: t, label: 'z', value: acceleration.z};
             history.addObjects([newXPoint, newYPoint, newZPoint]);
-            console.log("accel vals: x: "+ acceleration.x+ " y: "+acceleration.y+" z: "+acceleration.z+" t: "+ Date.now());
+            //console.log("accel vals: x: "+ acceleration.x+ " y: "+acceleration.y+" z: "+acceleration.z+" t: "+ Date.now());
         }, function (error) {//error callback
             console.log('error: ' + error);
         });
